@@ -1,1 +1,51 @@
 /*  your css code here. If applicable */
+body{
+    margin : 0;
+    padding : 0;
+    font-family : Arial, sans-serif;
+    background-color : #fff; 
+}
+.container {
+    display : flex;
+    height: 100vh;
+}
+.navbar {
+    flex : 1;
+    background-color : #D7E8D4;
+    padding : 1em;
+    min-width : 16.67%;
+    box-sizing : border-box;
+}
+
+.main-content {
+    flex : 5;
+    box-sizing : border-box;
+    display : flex;
+    flex-direction : column;
+}
+.header, .footer {
+    background-color : yellowgreen;
+    flex : 1;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    text-align : center;
+}
+.content {
+    flex  : 4;
+    display : flex;
+    padding : 1em;
+    box-sizing : border-box;
+}
+.article {
+    flex : 3;
+    min-height : 60vh;
+    padding : 1em;
+    box-sizing : border-box;
+}
+.aside{
+	flex : 1;
+    padding : 1em;
+    box-sizing : border-box;
+	background-color :#D7E8D4;
+}
