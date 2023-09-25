@@ -8,6 +8,7 @@ body{
 .container {
     display : flex;
     height: 100vh;
+	flex : 6;
 }
 .navbar {
     flex : 1;
@@ -21,13 +22,22 @@ body{
     flex : 5;
     box-sizing : border-box;
     display : flex;
-	 padding : 1em;
+/* 	 padding : 1em; */
     flex-direction : column;
 }
-.header, .footer {
+.header{
     background-color : yellowgreen;
     flex : 1;
-/* 	padding : 1em; */
+	padding : 1em;
+    display : flex;
+    justify-content : center;
+    align-items : center-;
+    text-align : center;
+}
+.footer {
+	 background-color : yellowgreen;
+    flex : 1;
+	padding : 1em;
     display : flex;
     justify-content : center;
     align-items : center-;
@@ -36,7 +46,6 @@ body{
 .content {
     flex  : 4;
     display : flex;
-    padding : 1em;
     box-sizing : border-box;
 }
 .article {
@@ -44,6 +53,7 @@ body{
     min-height : 60vh;
     padding : 1em;
     box-sizing : border-box;
+	background-color : red ;
 }
 .aside{
 	flex : 1;
