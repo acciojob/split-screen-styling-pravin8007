@@ -10,7 +10,7 @@ body{
     height: 100vh;
 	flex : 6;
 }
-.navbar {
+nav{
     flex : 1;
     background-color : #D7E8D4;
     padding : 1em;
@@ -25,7 +25,7 @@ body{
 /* 	 padding : 1em; */
     flex-direction : column;
 }
-.header{
+header{
     background-color : yellowgreen;
     flex : 1;
 	padding : 1em;
@@ -34,7 +34,7 @@ body{
     align-items : center-;
     text-align : center;
 }
-.footer {
+footer {
 	 background-color : yellowgreen;
     flex : 1;
 	padding : 1em;
@@ -43,19 +43,19 @@ body{
     align-items : center-;
     text-align : center;
 }
-.content {
+content {
     flex  : 4;
     display : flex;
     box-sizing : border-box;
 }
-.article {
+article {
     flex : 3;
     min-height : 60vh;
     padding : 1em;
     box-sizing : border-box;
 	background-color : red ;
 }
-.aside{
+aside{
 	flex : 1;
     padding : 1em;
     box-sizing : border-box;
