@@ -43,7 +43,7 @@ footer {
     align-items : center-;
     text-align : center;
 }
-content {
+.content {
     flex  : 4;
     display : flex;
     box-sizing : border-box;
